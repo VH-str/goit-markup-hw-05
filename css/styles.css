@@ -656,11 +656,11 @@ input::placeholder {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-button .ico-btn:hover {
+.ico-btn:hover .modal-window-button {
   fill: #ffffff;
 }
 
-.modal-window-button .ico-btn:focus {
+.ico-btn:focus .modal-window-button {
   fill: #ffffff;
 }
 
