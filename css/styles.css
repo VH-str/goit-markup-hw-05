@@ -88,6 +88,10 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav-text-link.ntl {
+  color: #404bbf;
+}
+
 .nav-text-link::after {
   content: "";
   position: absolute;
@@ -575,6 +579,7 @@ img {
   border-radius: 4px;
   color: #ffffff;
   outline: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input::placeholder {
@@ -601,6 +606,7 @@ input::placeholder {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submit-btn:hover,
@@ -819,6 +825,7 @@ input:checked + .check-box-label .check-box-label-span {
   margin-left: auto;
   margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
 }
 
 .subm-btn:hover,
