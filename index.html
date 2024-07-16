@@ -60,7 +60,9 @@
           <h1 class="main-text-hederone">
             Effective Solutions for Your Business
           </h1>
-          <button class="main-text-button" type="button">Order Service</button>
+          <button class="main-text-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="main-list">
@@ -556,9 +558,9 @@
         </div>
       </div>
     </footer>
-    <div class="modal-icon">
+    <div class="modal-icon" data-modal>
       <div class="modal-window">
-        <button class="modal-window-button" type="button">
+        <button class="modal-window-button" type="button" data-modal-close>
           <svg class="ico-btn" width="8" height="8">
             <use href="./images/icons.svg#xrest"></use>
           </svg>
@@ -621,7 +623,7 @@
           </div>
           <div class="check-box">
             <input
-              class="visually-hidden kub"
+              class="visually-hidden"
               id="user-privacy"
               type="checkbox"
               value="true"
@@ -641,5 +643,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
